@@ -8,11 +8,10 @@ export const HeaderPartial = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="/productList"><i className="bi bi-house-door"></i></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/productList"><i className="bi bi-shop"></i></Nav.Link>
+            <Nav.Link as={Link} to="/productList"><i className="bi bi-house-door"></i></Nav.Link>
           </Nav>
           <Nav.Link as={Link} to="/cart"><i className="bi bi-cart3"></i></Nav.Link>
         </Navbar.Collapse>
